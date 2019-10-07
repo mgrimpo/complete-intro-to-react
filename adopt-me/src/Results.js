@@ -13,8 +13,8 @@ const Results = ({ pets }) => {
                         key={pet.id}
                         name={pet.name}
                         breed={pet.breeds.primary}
-                        media={pet.pthos}
-                        loatcion={`${pet.contact.address.city}, ${pet.contact.address.state} `}
+                        media={pet.photos}
+                        location={`${pet.contact.address.city}, ${pet.contact.address.state} `}
                         id={pet.id}
                     />
                 ))
